@@ -1,9 +1,9 @@
 jQuery(document).ready(function($){
 	//cache some jQuery objects
-	var modalTrigger = $('.cd-modal1-trigger'),
+	var modalTrigger = $('.cd-modal-trigger'),
 		transitionLayer = $('.cd-transition-layer'),
 		transitionBackground = transitionLayer.children(),
-		modalWindow = $('.cd-modal1');
+		modalWindow = $('.cd-modal');
 
 	var frameProportion = 1.78, //png frame aspect ratio
 		frames = 25, //number of png frames
