@@ -4,6 +4,7 @@ jQuery(document).ready(function($){
 		transitionLayer = $('.cd-transition-layer'),
 		transitionBackground = transitionLayer.children(),
 		modalWindow = $('.cd-modal');
+		
 
 	var frameProportion = 1.78, //png frame aspect ratio
 		frames = 25, //number of png frames
@@ -59,4 +60,8 @@ jQuery(document).ready(function($){
 
 		resize = false;
 	}
+
+//// 
+
+
 });
