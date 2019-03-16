@@ -1,9 +1,9 @@
 jQuery(document).ready(function($){
 	//cache some jQuery objects
-	var modalTrigger = $('.cd-modal-trigger'),
-		transitionLayer = $('.cd-transition-layer'),
+	var modalTrigger = $('.cd-modal-trigger1'),
+		transitionLayer = $('.cd-transition-layer1'),
 		transitionBackground = transitionLayer.children(),
-		modalWindow = $('.cd-modal');
+		modalWindow = $('.cd-modal1');
 
 	var frameProportion = 1.78, //png frame aspect ratio
 		frames = 25, //number of png frames
@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
 	});
 
 	//close modal window
-	modalWindow.on('click', '.modal-close', function(event){
+	modalWindow.on('click', '.modal-close1', function(event){
 		event.preventDefault();
 		transitionLayer.addClass('closing');
 		modalWindow.removeClass('visible');
